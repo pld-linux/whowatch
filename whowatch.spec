@@ -26,8 +26,8 @@ process.
 Whowatch jest interaktywnym terminalowym narzêdziem, które wy¶wietla
 informacje o aktualnie zalogowanych u¿ytkownikach w czasie
 rzeczywistym. Poza standardowymi informacjami (login, tty, host,
-user's process) mo¿na zobaczyæ popraez jaka us³ugê kto¶ sie zalogowa³ (ssh,
-telnet...). Mo¿na tak¿e zobaczyæ drzewo procesów u¿ytkownika lub
+user's process) mo¿na zobaczyæ popraez jaka us³ugê kto¶ sie zalogowa³
+(ssh, telnet...). Mo¿na tak¿e zobaczyæ drzewo procesów u¿ytkownika lub
 drzewo procesów systemowych. W tym drzewie mo¿liwe jest wysy³anie do
 procesów sygnalów INT lub KILL.
 
