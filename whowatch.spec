@@ -24,7 +24,6 @@ process.
 %patch0 -p1
 
 %build
-LDFLAGS="-s"; export LDFLAGS
 %configure
 %{__make}
 
@@ -34,8 +33,6 @@ install -d $RPM_BUILD_ROOT/{%{_bindir},%{_mandir}/man1}
 
 install whowatch $RPM_BUILD_ROOT/%{_bindir}
 install whowatch.1 $RPM_BUILD_ROOT/%{_mandir}/man1
-
-gzip -9nf $RPM_BUILD_ROOT/%{_mandir}/man1/whowatch.1
 
 %files
 %defattr(644,root,root,755)
