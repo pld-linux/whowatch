@@ -6,6 +6,7 @@ Release:	2
 License:	GPL
 Group:		Applications/Console
 Source0:	http://wizard.ae.krakow.pl/~mike/download/%{name}-%{version}.tar.gz
+# Source0-md5:	0870155e8b75b99f9954e76fb20f9528
 Patch0:		%{name}-utmpx.patch
 BuildRequires:	autoconf
 BuildRequires:	automake
