@@ -2,7 +2,7 @@ Summary:	whowatch display information about processes and logged users
 Summary(pl):	whowatch wy¶wietla informacje o procesach i zalogowanych u¿ytkownikach
 Name:		whowatch
 Version:	1.4
-Release:	2
+Release:	3
 License:	GPL
 Group:		Applications/Console
 Source0:	http://wizard.ae.krakow.pl/~mike/download/%{name}-%{version}.tar.gz
