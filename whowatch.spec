@@ -37,7 +37,7 @@ procesów sygnalów INT lub KILL.
 
 %build
 aclocal
-autoconf
+%{__autoconf}
 %configure
 %{__make}
 
