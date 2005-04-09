@@ -8,10 +8,10 @@ Group:		Applications/Console
 Source0:	http://wizard.ae.krakow.pl/~mike/download/%{name}-%{version}.tar.gz
 # Source0-md5:	0870155e8b75b99f9954e76fb20f9528
 Patch0:		%{name}-utmpx.patch
+URL:		http://wizard.ae.krakow.pl/~mike/#whowatch
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	ncurses-devel >= 5.1
-URL:		http://wizard.ae.krakow.pl/~mike/#whowatch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
