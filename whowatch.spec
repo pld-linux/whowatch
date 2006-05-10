@@ -3,7 +3,7 @@ Summary(pl):	whowatch wy¶wietla informacje o procesach i zalogowanych u¿ytkownik
 Name:		whowatch
 Version:	1.4
 Release:	3
-License:	GPL
+License:	GPL v2
 Group:		Applications/Console
 Source0:	http://wizard.ae.krakow.pl/~mike/download/%{name}-%{version}.tar.gz
 # Source0-md5:	0870155e8b75b99f9954e76fb20f9528
@@ -51,6 +51,7 @@ install whowatch.1 $RPM_BUILD_ROOT%{_mandir}/man1
 
 %files
 %defattr(644,root,root,755)
+%doc AUTHORS ChangeLog NEWS KEYS README TODO
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man1/*
 
