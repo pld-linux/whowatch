@@ -1,5 +1,5 @@
 Summary:	whowatch display information about processes and logged users
-Summary(pl.UTF-8):   whowatch wyświetla informacje o procesach i zalogowanych użytkownikach
+Summary(pl.UTF-8):	whowatch wyświetla informacje o procesach i zalogowanych użytkownikach
 Name:		whowatch
 Version:	1.4
 Release:	3
