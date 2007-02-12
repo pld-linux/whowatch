@@ -1,5 +1,5 @@
 Summary:	whowatch display information about processes and logged users
-Summary(pl):	whowatch wy∂wietla informacje o procesach i zalogowanych uøytkownikach
+Summary(pl.UTF-8):   whowatch wy≈õwietla informacje o procesach i zalogowanych u≈ºytkownikach
 Name:		whowatch
 Version:	1.4
 Release:	3
@@ -23,14 +23,14 @@ user's processes tree or all system processes tree. In the process
 tree mode there is ability to send INT or KILL signal to selected
 process.
 
-%description -l pl
-Whowatch jest interaktywnym terminalowym narzÍdziem, ktÛre wy∂wietla
-informacje o aktualnie zalogowanych uøytkownikach w czasie
+%description -l pl.UTF-8
+Whowatch jest interaktywnym terminalowym narzƒôdziem, kt√≥re wy≈õwietla
+informacje o aktualnie zalogowanych u≈ºytkownikach w czasie
 rzeczywistym. Poza standardowymi informacjami (login, tty, host,
-user's process) moøna zobaczyÊ poprzez jak± us≥ugÍ kto∂ sie zalogowa≥
-(ssh, telnet...). Moøna takøe zobaczyÊ drzewo procesÛw uøytkownika lub
-drzewo procesÛw systemowych. W tym drzewie moøliwe jest wysy≥anie do
-procesÛw sygna≥Ûw INT lub KILL.
+user's process) mo≈ºna zobaczyƒá poprzez jakƒÖ us≈Çugƒô kto≈õ sie zalogowa≈Ç
+(ssh, telnet...). Mo≈ºna tak≈ºe zobaczyƒá drzewo proces√≥w u≈ºytkownika lub
+drzewo proces√≥w systemowych. W tym drzewie mo≈ºliwe jest wysy≈Çanie do
+proces√≥w sygna≈Ç√≥w INT lub KILL.
 
 %prep
 %setup -q
